@@ -1,0 +1,11 @@
+{
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "typegraphql-test",
+    "entities": [
+        "src/entity/*.ts"
+    ],
+    "synchronize": true,
+    "logging": true
+}
